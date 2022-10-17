@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+  font-family: Lato, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #424551;
+}
+/* ========HEADER============ */
+[class*="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.header__container {
+  background-color: aqua;
+}
+.header__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+/* ========/HEADER============ */
+/* ========LANDING============ */
+.list__item {
+  display: flex;
+  align-items: center;
+}
+/* --------title--------------- */
+.landing__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+  margin-bottom: 26px;
+  color: #000;
+}
+/* --------/title--------------- */
+/* --------details-------------- */
+.landing-details {
+  margin-bottom: 40px;
+}
+.date__picture {
+  margin-right: 8px;
+}
+.landing-share__text,
+.nav-social__link {
+  margin-right: 12px;
+}
+/* --------/details-------------- */
+/* ---------image--------------- */
+.landing__image {
+  margin-bottom: 60px;
+}
+/* ---------/image--------------- */
+/* ----------text---------------- */
+.landing__text-one {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: #1e212c;
+}
+.landing__text-two {
+  margin-bottom: 40px;
+}
+.landing__text-three {
+  margin-bottom: 48px;
+}
+.text-four {
+  display: flex;
+}
+.text-four__img {
+  max-width: 28px;
+  height: 20px;
+}
+.landing__text-four {
+  max-width: 752px;
+  display: block;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 30px;
+  margin-bottom: 48px;
+  color: #000;
+}
+.landing__text-five,
+.landing__list {
+  margin-bottom: 24px;
+}
+.list__item-mark {
+  margin-right: 16px;
+}
+.list__item {
+  margin-bottom: 4px;
+}
+.landing__text-six {
+  margin-bottom: 60px;
+}
+/* ----------/text---------------- */
+/* ---------button-------- */
+.homepage-button__btn {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.homepage-button__link{
+   display:block;
+   max-width: 150px;
+   margin: 0 auto;
+   background-color: #f01f03;
+   padding: 15px;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 5px 0 #000;
+   transition: all 0.3s ease 0s;
+   
+}
+.homepage-button__link:hover{
+  background-color: #0a9ae2;
+   margin-top: 3px;
+   box-shadow: 0 2px 0 #000;
+}
+
+.homepage-button__link:active{
+   margin-top: 3px;
+   box-shadow: 0 2px 0 #000;
+   background-color: #06f306;
+   color: rgb(234, 239, 81);
+}
+
+/* ---------/button-------- */
+/* ========/LANDING============ */
+/* ========FOOTER============== */
+.footer__container {
+  background-color: aqua;
+}
+.footer__sign {
+  display: block;
+  margin: 0 auto;
+}
+/* ========/FOOTER============== */
